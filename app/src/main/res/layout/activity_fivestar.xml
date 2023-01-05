@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7F7F"
+    tools:context=".fivestar">
+
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="157dp"
+        android:layout_height="18dp"
+        android:text="BURJ AL ARAB"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="157dp"
+        android:layout_height="18dp"
+        android:text="FAIRMONT DUBAI"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="157dp"
+        android:layout_height="18dp"
+        android:text="CAESARS PALACE"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="177dp"
+        android:layout_height="181dp"
+        android:text="Set on an island in a striking sail-shaped building, this luxury hotel is a 5-minute walk from Wild Wadi Water Park and 4 km from Mall of the Emirates, Opulent suites feature floor-to-ceiling windows with gulf or city views. All have 24-carat gold iPads and WiFi, considered by many as a 7 Star Hotel, average price is 9000 AED per night"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="172dp"
+        android:layout_height="169dp"
+        android:text="In the heart of this unique destination is Fairmont Dubai. Conveniently located, this luxury hotel in Dubai is just 10 minutes away from the world’s largest shopping centre – The Dubai Mall, Burj Khalifa, the tallest man-made structure in the world, and the Dubai Fountain, average price is 1200 AED per night"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="172dp"
+        android:layout_height="169dp"
+        android:text=" Caesars Palace Dubai is where luxurious stays, world class dining, indulgent amenities and legendary hospitality await. With 5 outdoor chilled pools, 12 restaurants and bars, 2 beach clubs, an award-winning Qua Spa and kids recreation, Caesars Palace Dubai is a true playground for all ages, average price is 3,200 AED per night"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="193dp"
+        android:layout_height="195dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97"
+        app:srcCompat="@drawable/burj" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="193dp"
+        android:layout_height="195dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597"
+        app:srcCompat="@drawable/fairmont" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEST FIVE STAR HOTELS"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="193dp"
+        android:layout_height="195dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199"
+        app:srcCompat="@drawable/caesar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
